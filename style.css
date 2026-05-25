@@ -35,6 +35,12 @@ a {
 }
 .card {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.projects3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 .img-tlk {
   width: 300px;
